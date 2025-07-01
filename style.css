@@ -1,0 +1,41 @@
+.header{
+    
+    background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color:white;
+    padding: 0px 0;
+    box-shadow:  0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap:32px;
+ 
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+   
+    }
+.nav-link:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.nav-logo h1{
+    font-size: 24px;
+}
+body{
+    font-family: "arial", sans-serif;
+    line-height: 1.6;
+    color:#333;
+
+}
