@@ -39,3 +39,46 @@ body{
     color:#333;
 
 }
+.button-secondary{
+    background-color: #3498db;
+    color:white;
+    padding: 15px;
+}
+.destinos-cards{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+
+
+}
+.destinos-grid{
+    border: 5px solid red;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,2fr));
+
+}
+.container{
+    border: 5px solid rgb(174, 255, 0);
+   
+    }
+    .destinos-cards{
+        border: 5px solid rgb(62, 105, 140);
+        margin: 30px 30px;
+    }
+    .destinhoinfo{
+        border: 5px solid rgb(100, 42, 85);
+    }
+.imagem{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+    transition: transform 0.3s;
+
+}
+.section-títle{
+    text-align: center;
+}
