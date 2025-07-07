@@ -1,2 +1,32 @@
 
 
+function converter(){
+
+
+    const valor = parseFloat(document.getElementById('valor').value);
+    const moeda = document.getElementById('moeda').value;
+
+    
+
+
+    fetch(`https://open.er-api.com/v6/latest/${moeda}`)
+    .then(
+        function (aaaaa){
+            return aaaaa.json();
+        }
+    ).then(
+        function(resposta){
+            let resultado = valor / resposta.rates.BRL;
+          
+           
+           document.getElementById('resultado').innerText = resultado.toFixed(2);
+        }
+
+    ).catch();
+
+    
+
+
+}   
+
+converter();

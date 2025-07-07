@@ -14,18 +14,22 @@
     margin: 0 auto;
     padding:0 20px;
 }
+
 .nav-menu{
     display: flex;
     list-style: none;
     gap:32px;
  
 }
+
 .nav-link{
     color: white;
     text-decoration: none;
     padding: 10px 10px;
    
     }
+  
+    
 .nav-link:hover{
     cursor: pointer;
     opacity: 0.8;
@@ -33,43 +37,42 @@
 .nav-logo h1{
     font-size: 24px;
 }
+
 body{
     font-family: "arial", sans-serif;
     line-height: 1.6;
     color:#333;
 
 }
+
 .button-secondary{
     background-color: #3498db;
     color:white;
     padding: 15px;
 }
-.destinos-cards{
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
 
 
-
-}
-.destinos-grid{
-    border: 5px solid red;
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px,2fr));
-
-}
 .container{
     border: 5px solid rgb(174, 255, 0);
    
     }
     .destinos-cards{
-        border: 5px solid rgb(62, 105, 140);
-        margin: 30px 30px;
+        background-color: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .destinos-grid{
+        border: 5px blue solid;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
     }
     .destinhoinfo{
-        border: 5px solid rgb(100, 42, 85);
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: transform 0.9s;
     }
 .imagem{
     width: 100%;
@@ -82,3 +85,45 @@ body{
 .section-títle{
     text-align: center;
 }
+.section-conversor-titulo h1{
+    text-align: center;
+    
+}
+.section-conversor-titulo p{
+    text-align: center;
+    color: #7f8c8d;
+    
+}
+.section-conversor{
+    width: 38%;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.botaoConverter{
+background-color: red;
+color:white;
+font-size: 16px;
+}
+
+.tamanhoh1{
+    font-size: 50px;
+}
+.tamanhomenordacaixa{
+    font-size: 16px;
+
+}
+.infor-grid{
+    display:grid;
+    justify-content:center;
+    
+}
+
+
+
+
+

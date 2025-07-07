@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!--Cabeçalho -->
+ <header class="header">
+        
+    <nav class="nav">
+       
+        <div class="nav-logo">
+            <h1>🛫Explorar mundo</h1>
+
+        </div>
+
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Inicio</a></li>
+            <li><a href="sobre.html" class="nav-link">sobre</a></li>
+            <li><a href="conversor.html" class="nav-link">conversor</a></li>
+            <li><a href="contato.html" class="nav-link">contato</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+<section class="section-conversor-titulo">
+    <h1 class ="tamanhoh1">Conversor de Moedas</h1>
+    <p>Converta valores entre diferentes moedas para planejar melhor sua viagem internacional</p>
+</section>
+    <section class="section-conversor">
+        
+        <div class="form">
+            <br>
+            <h2>💱 Conversão de Moedas</h2>
+            <h3>
+
+            <label for="valor"> Valor em reais (R$)</label>
+            <input class = "tamanhomenordacaixa" type="number" id="valor" placeholder="Digite um valor">  </h3>
+        </div>
+
+        <div class="form">
+            <h3>
+            <label for="moeda_label"> Converter para:</label>
+            <select class = "tamanhomenordacaixa"id="moeda">
+                <option value="USD">Dolar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>  
+                <option value="GBP">Libra (GBP)</option>      
+            </select>
+
+            <button onclick="converter()" class ="botaoConverter">🔁 Converter</button>
+            
+            <div id="resultado"></div>
+        </h3>
+        </div>
+
+        
+        
+
+    </section>
+    <section class="section-conversor-titulo">
+        <h1>💡 Informações Importantes </h1>
+        
+    </section>
+    <section class ="infor">
+        
+           
+                <div class="infor-grid">
+                    
+                        
+                        <div class="destinhoinfo">
+                            <h3>Taxas Simuladas</h3>
+                            <p>Este conversor usa a taxa de câmbio do
+                                dia consultado. </p>
+                        </div>
+                        <div class="destinhoinfo">
+                            <h3>Variação Diária</h3>
+                            <p> As taxas de câmbio variam
+                                constantemente. Sempre verifique as
+                                cotações atuais antes de viajar. </p>
+                        </div>
+                        <div class="destinhoinfo">
+                            <h3>Consulte seu Banco</h3>
+                            <p> Para operações reais, consulte as taxas
+                                do seu banco ou casa de câmbio
+                                autorizada. </p>
+                        </div>
+                </div>
+                    </section>
+<script src="script.js"></script>
+</body>
+</html>
